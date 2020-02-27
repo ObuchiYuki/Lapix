@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EA6F9A23D711220080CAF2 /* Lapix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EA6F9023D711220080CAF2 /* Lapix.framework */; };
+		B6EA6F9F23D711220080CAF2 /* AxRenderCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA6F9E23D711220080CAF2 /* AxRenderCoreTests.swift */; };
+		B6EA6FA123D711220080CAF2 /* Lapix.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EA6F9323D711220080CAF2 /* Lapix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7B9B23EE6E4500E547E2 /* Ex+SKTNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B6923EE6E4400E547E2 /* Ex+SKTNode.swift */; };
+		B6ED7B9C23EE6E4500E547E2 /* Gl+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B6A23EE6E4400E547E2 /* Gl+Functions.swift */; };
+		B6ED7B9D23EE6E4500E547E2 /* Ex+AxRenderCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B6B23EE6E4400E547E2 /* Ex+AxRenderCore.swift */; };
+		B6ED7B9E23EE6E4500E547E2 /* AxBorderStyleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B6E23EE6E4400E547E2 /* AxBorderStyleRenderer.swift */; };
+		B6ED7B9F23EE6E4500E547E2 /* AxInnerShadowRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B6F23EE6E4400E547E2 /* AxInnerShadowRenderer.swift */; };
+		B6ED7BA023EE6E4500E547E2 /* AxShadowStyleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7023EE6E4400E547E2 /* AxShadowStyleRenderer.swift */; };
+		B6ED7BA123EE6E4500E547E2 /* AxFillStyleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7123EE6E4400E547E2 /* AxFillStyleRenderer.swift */; };
+		B6ED7BA223EE6E4500E547E2 /* AxStyleGradientRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7223EE6E4400E547E2 /* AxStyleGradientRenderer.swift */; };
+		B6ED7BA323EE6E4500E547E2 /* AxShapeNodeStyleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7323EE6E4400E547E2 /* AxShapeNodeStyleRenderer.swift */; };
+		B6ED7BA423EE6E4500E547E2 /* AxLayerNodeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7523EE6E4400E547E2 /* AxLayerNodeRenderer.swift */; };
+		B6ED7BA523EE6E4500E547E2 /* AxBitmapRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7723EE6E4400E547E2 /* AxBitmapRenderer.swift */; };
+		B6ED7BA623EE6E4500E547E2 /* AxTextRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7923EE6E4400E547E2 /* AxTextRenderer.swift */; };
+		B6ED7BA723EE6E4500E547E2 /* AxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7B23EE6E4400E547E2 /* AxPathGenerator.swift */; };
+		B6ED7BA823EE6E4500E547E2 /* AxShapeNodeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B7C23EE6E4400E547E2 /* AxShapeNodeRenderer.swift */; };
+		B6ED7BA923EE6E4500E547E2 /* FBBezierCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B7F23EE6E4400E547E2 /* FBBezierCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BAA23EE6E4500E547E2 /* FBDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8023EE6E4400E547E2 /* FBDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BAB23EE6E4500E547E2 /* MWGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8123EE6E4400E547E2 /* MWGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BAC23EE6E4500E547E2 /* CGPath_Boolean.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8223EE6E4400E547E2 /* CGPath_Boolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BAD23EE6E4500E547E2 /* FBEdgeCrossing.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8323EE6E4400E547E2 /* FBEdgeCrossing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BAE23EE6E4500E547E2 /* MWPointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8423EE6E4400E547E2 /* MWPointValue.m */; };
+		B6ED7BAF23EE6E4500E547E2 /* FBContourEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8523EE6E4400E547E2 /* FBContourEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BB023EE6E4500E547E2 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8623EE6E4400E547E2 /* Canvas.m */; };
+		B6ED7BB123EE6E4500E547E2 /* FBGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8723EE6E4400E547E2 /* FBGeometry.m */; };
+		B6ED7BB223EE6E4500E547E2 /* CanvasController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8823EE6E4500E547E2 /* CanvasController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BB323EE6E4500E547E2 /* FBBezierContour.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8923EE6E4500E547E2 /* FBBezierContour.m */; };
+		B6ED7BB423EE6E4500E547E2 /* CGPath_Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B8A23EE6E4500E547E2 /* CGPath_Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BB523EE6E4500E547E2 /* FBBezierGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8B23EE6E4500E547E2 /* FBBezierGraph.m */; };
+		B6ED7BB623EE6E4500E547E2 /* FBBezierIntersection.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8C23EE6E4500E547E2 /* FBBezierIntersection.m */; };
+		B6ED7BB723EE6E4500E547E2 /* MWGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8D23EE6E4500E547E2 /* MWGeometry.c */; };
+		B6ED7BB823EE6E4500E547E2 /* FBBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8E23EE6E4500E547E2 /* FBBezierCurve.m */; };
+		B6ED7BB923EE6E4500E547E2 /* FBDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B8F23EE6E4500E547E2 /* FBDebug.m */; };
+		B6ED7BBA23EE6E4500E547E2 /* MWPointValue.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9023EE6E4500E547E2 /* MWPointValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BBB23EE6E4500E547E2 /* FBEdgeCrossing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B9123EE6E4500E547E2 /* FBEdgeCrossing.m */; };
+		B6ED7BBC23EE6E4500E547E2 /* CGPath_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B9223EE6E4500E547E2 /* CGPath_Boolean.m */; };
+		B6ED7BBD23EE6E4500E547E2 /* CGPath_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B9323EE6E4500E547E2 /* CGPath_Utilities.m */; };
+		B6ED7BBE23EE6E4500E547E2 /* FBBezierContour.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9423EE6E4500E547E2 /* FBBezierContour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BBF23EE6E4500E547E2 /* CanvasController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B9523EE6E4500E547E2 /* CanvasController.m */; };
+		B6ED7BC023EE6E4500E547E2 /* FBGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9623EE6E4500E547E2 /* FBGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BC123EE6E4500E547E2 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9723EE6E4500E547E2 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BC223EE6E4500E547E2 /* FBContourEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7B9823EE6E4500E547E2 /* FBContourEdge.m */; };
+		B6ED7BC323EE6E4500E547E2 /* FBBezierIntersection.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9923EE6E4500E547E2 /* FBBezierIntersection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BC423EE6E4500E547E2 /* FBBezierGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ED7B9A23EE6E4500E547E2 /* FBBezierGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED7BC723EE706C00E547E2 /* AxArtboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED7BC623EE706C00E547E2 /* AxArtboardView.swift */; };
+		B6F6C8F923EFA6A800C911F2 /* AxRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6C8F823EFA6A800C911F2 /* AxRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6EA6F9B23D711220080CAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA6F8723D711220080CAF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EA6F8F23D711220080CAF2;
+			remoteInfo = AxRenderCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6EA6F9023D711220080CAF2 /* Lapix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lapix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA6F9323D711220080CAF2 /* Lapix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lapix.h; sourceTree = "<group>"; };
+		B6EA6F9423D711220080CAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA6F9923D711220080CAF2 /* LapixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LapixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA6F9E23D711220080CAF2 /* AxRenderCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxRenderCoreTests.swift; sourceTree = "<group>"; };
+		B6EA6FA023D711220080CAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ED7B6923EE6E4400E547E2 /* Ex+SKTNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+SKTNode.swift"; sourceTree = "<group>"; };
+		B6ED7B6A23EE6E4400E547E2 /* Gl+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gl+Functions.swift"; sourceTree = "<group>"; };
+		B6ED7B6B23EE6E4400E547E2 /* Ex+AxRenderCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+AxRenderCore.swift"; sourceTree = "<group>"; };
+		B6ED7B6E23EE6E4400E547E2 /* AxBorderStyleRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxBorderStyleRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B6F23EE6E4400E547E2 /* AxInnerShadowRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxInnerShadowRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7023EE6E4400E547E2 /* AxShadowStyleRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxShadowStyleRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7123EE6E4400E547E2 /* AxFillStyleRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxFillStyleRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7223EE6E4400E547E2 /* AxStyleGradientRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxStyleGradientRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7323EE6E4400E547E2 /* AxShapeNodeStyleRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxShapeNodeStyleRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7523EE6E4400E547E2 /* AxLayerNodeRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxLayerNodeRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7723EE6E4400E547E2 /* AxBitmapRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxBitmapRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7923EE6E4400E547E2 /* AxTextRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxTextRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7B23EE6E4400E547E2 /* AxPathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxPathGenerator.swift; sourceTree = "<group>"; };
+		B6ED7B7C23EE6E4400E547E2 /* AxShapeNodeRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxShapeNodeRenderer.swift; sourceTree = "<group>"; };
+		B6ED7B7F23EE6E4400E547E2 /* FBBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierCurve.h; sourceTree = "<group>"; };
+		B6ED7B8023EE6E4400E547E2 /* FBDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebug.h; sourceTree = "<group>"; };
+		B6ED7B8123EE6E4400E547E2 /* MWGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGeometry.h; sourceTree = "<group>"; };
+		B6ED7B8223EE6E4400E547E2 /* CGPath_Boolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPath_Boolean.h; sourceTree = "<group>"; };
+		B6ED7B8323EE6E4400E547E2 /* FBEdgeCrossing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEdgeCrossing.h; sourceTree = "<group>"; };
+		B6ED7B8423EE6E4400E547E2 /* MWPointValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPointValue.m; sourceTree = "<group>"; };
+		B6ED7B8523EE6E4400E547E2 /* FBContourEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBContourEdge.h; sourceTree = "<group>"; };
+		B6ED7B8623EE6E4400E547E2 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		B6ED7B8723EE6E4400E547E2 /* FBGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGeometry.m; sourceTree = "<group>"; };
+		B6ED7B8823EE6E4500E547E2 /* CanvasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasController.h; sourceTree = "<group>"; };
+		B6ED7B8923EE6E4500E547E2 /* FBBezierContour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierContour.m; sourceTree = "<group>"; };
+		B6ED7B8A23EE6E4500E547E2 /* CGPath_Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPath_Utilities.h; sourceTree = "<group>"; };
+		B6ED7B8B23EE6E4500E547E2 /* FBBezierGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierGraph.m; sourceTree = "<group>"; };
+		B6ED7B8C23EE6E4500E547E2 /* FBBezierIntersection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierIntersection.m; sourceTree = "<group>"; };
+		B6ED7B8D23EE6E4500E547E2 /* MWGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MWGeometry.c; sourceTree = "<group>"; };
+		B6ED7B8E23EE6E4500E547E2 /* FBBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierCurve.m; sourceTree = "<group>"; };
+		B6ED7B8F23EE6E4500E547E2 /* FBDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebug.m; sourceTree = "<group>"; };
+		B6ED7B9023EE6E4500E547E2 /* MWPointValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPointValue.h; sourceTree = "<group>"; };
+		B6ED7B9123EE6E4500E547E2 /* FBEdgeCrossing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEdgeCrossing.m; sourceTree = "<group>"; };
+		B6ED7B9223EE6E4500E547E2 /* CGPath_Boolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPath_Boolean.m; sourceTree = "<group>"; };
+		B6ED7B9323EE6E4500E547E2 /* CGPath_Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPath_Utilities.m; sourceTree = "<group>"; };
+		B6ED7B9423EE6E4500E547E2 /* FBBezierContour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierContour.h; sourceTree = "<group>"; };
+		B6ED7B9523EE6E4500E547E2 /* CanvasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasController.m; sourceTree = "<group>"; };
+		B6ED7B9623EE6E4500E547E2 /* FBGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGeometry.h; sourceTree = "<group>"; };
+		B6ED7B9723EE6E4500E547E2 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		B6ED7B9823EE6E4500E547E2 /* FBContourEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBContourEdge.m; sourceTree = "<group>"; };
+		B6ED7B9923EE6E4500E547E2 /* FBBezierIntersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierIntersection.h; sourceTree = "<group>"; };
+		B6ED7B9A23EE6E4500E547E2 /* FBBezierGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierGraph.h; sourceTree = "<group>"; };
+		B6ED7BC623EE706C00E547E2 /* AxArtboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxArtboardView.swift; sourceTree = "<group>"; };
+		B6F6C8F823EFA6A800C911F2 /* AxRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxRenderer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EA6F8D23D711220080CAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA6F9623D711220080CAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA6F9A23D711220080CAF2 /* Lapix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EA6F8623D711220080CAF2 = {
+			isa = PBXGroup;
+			children = (
+				B6EA6F9223D711220080CAF2 /* Lapix */,
+				B6EA6F9D23D711220080CAF2 /* LapixTests */,
+				B6EA6F9123D711220080CAF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EA6F9123D711220080CAF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA6F9023D711220080CAF2 /* Lapix.framework */,
+				B6EA6F9923D711220080CAF2 /* LapixTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EA6F9223D711220080CAF2 /* Lapix */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA6F9423D711220080CAF2 /* Info.plist */,
+				B6EA6F9323D711220080CAF2 /* Lapix.h */,
+				B6ED7B6723EE6E4400E547E2 /* Lapix */,
+			);
+			path = Lapix;
+			sourceTree = "<group>";
+		};
+		B6EA6F9D23D711220080CAF2 /* LapixTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA6F9E23D711220080CAF2 /* AxRenderCoreTests.swift */,
+				B6EA6FA023D711220080CAF2 /* Info.plist */,
+			);
+			path = LapixTests;
+			sourceTree = "<group>";
+		};
+		B6ED7B6723EE6E4400E547E2 /* Lapix */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7BC523EE705C00E547E2 /* View */,
+				B6ED7B6823EE6E4400E547E2 /* Ex+ */,
+				B6ED7B6C23EE6E4400E547E2 /* Style */,
+				B6ED7B7423EE6E4400E547E2 /* NodeRenderer */,
+				B6ED7B7D23EE6E4400E547E2 /* Libs */,
+			);
+			path = Lapix;
+			sourceTree = "<group>";
+		};
+		B6ED7B6823EE6E4400E547E2 /* Ex+ */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B6923EE6E4400E547E2 /* Ex+SKTNode.swift */,
+				B6ED7B6A23EE6E4400E547E2 /* Gl+Functions.swift */,
+				B6ED7B6B23EE6E4400E547E2 /* Ex+AxRenderCore.swift */,
+			);
+			path = "Ex+";
+			sourceTree = "<group>";
+		};
+		B6ED7B6C23EE6E4400E547E2 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B6D23EE6E4400E547E2 /* Options */,
+				B6ED7B7323EE6E4400E547E2 /* AxShapeNodeStyleRenderer.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		B6ED7B6D23EE6E4400E547E2 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B6E23EE6E4400E547E2 /* AxBorderStyleRenderer.swift */,
+				B6ED7B6F23EE6E4400E547E2 /* AxInnerShadowRenderer.swift */,
+				B6ED7B7023EE6E4400E547E2 /* AxShadowStyleRenderer.swift */,
+				B6ED7B7123EE6E4400E547E2 /* AxFillStyleRenderer.swift */,
+				B6ED7B7223EE6E4400E547E2 /* AxStyleGradientRenderer.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		B6ED7B7423EE6E4400E547E2 /* NodeRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7523EE6E4400E547E2 /* AxLayerNodeRenderer.swift */,
+				B6ED7B7623EE6E4400E547E2 /* Image */,
+				B6ED7B7823EE6E4400E547E2 /* Text */,
+				B6ED7B7A23EE6E4400E547E2 /* ShapeNode */,
+			);
+			path = NodeRenderer;
+			sourceTree = "<group>";
+		};
+		B6ED7B7623EE6E4400E547E2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7723EE6E4400E547E2 /* AxBitmapRenderer.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B6ED7B7823EE6E4400E547E2 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7923EE6E4400E547E2 /* AxTextRenderer.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		B6ED7B7A23EE6E4400E547E2 /* ShapeNode */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7B23EE6E4400E547E2 /* AxPathGenerator.swift */,
+				B6ED7B7C23EE6E4400E547E2 /* AxShapeNodeRenderer.swift */,
+			);
+			path = ShapeNode;
+			sourceTree = "<group>";
+		};
+		B6ED7B7D23EE6E4400E547E2 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7E23EE6E4400E547E2 /* PathBoolianOperation */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		B6ED7B7E23EE6E4400E547E2 /* PathBoolianOperation */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7B7F23EE6E4400E547E2 /* FBBezierCurve.h */,
+				B6ED7B8023EE6E4400E547E2 /* FBDebug.h */,
+				B6ED7B8123EE6E4400E547E2 /* MWGeometry.h */,
+				B6ED7B8223EE6E4400E547E2 /* CGPath_Boolean.h */,
+				B6ED7B8323EE6E4400E547E2 /* FBEdgeCrossing.h */,
+				B6ED7B8423EE6E4400E547E2 /* MWPointValue.m */,
+				B6ED7B8523EE6E4400E547E2 /* FBContourEdge.h */,
+				B6ED7B8623EE6E4400E547E2 /* Canvas.m */,
+				B6ED7B8723EE6E4400E547E2 /* FBGeometry.m */,
+				B6ED7B8823EE6E4500E547E2 /* CanvasController.h */,
+				B6ED7B8923EE6E4500E547E2 /* FBBezierContour.m */,
+				B6ED7B8A23EE6E4500E547E2 /* CGPath_Utilities.h */,
+				B6ED7B8B23EE6E4500E547E2 /* FBBezierGraph.m */,
+				B6ED7B8C23EE6E4500E547E2 /* FBBezierIntersection.m */,
+				B6ED7B8D23EE6E4500E547E2 /* MWGeometry.c */,
+				B6ED7B8E23EE6E4500E547E2 /* FBBezierCurve.m */,
+				B6ED7B8F23EE6E4500E547E2 /* FBDebug.m */,
+				B6ED7B9023EE6E4500E547E2 /* MWPointValue.h */,
+				B6ED7B9123EE6E4500E547E2 /* FBEdgeCrossing.m */,
+				B6ED7B9223EE6E4500E547E2 /* CGPath_Boolean.m */,
+				B6ED7B9323EE6E4500E547E2 /* CGPath_Utilities.m */,
+				B6ED7B9423EE6E4500E547E2 /* FBBezierContour.h */,
+				B6ED7B9523EE6E4500E547E2 /* CanvasController.m */,
+				B6ED7B9623EE6E4500E547E2 /* FBGeometry.h */,
+				B6ED7B9723EE6E4500E547E2 /* Canvas.h */,
+				B6ED7B9823EE6E4500E547E2 /* FBContourEdge.m */,
+				B6ED7B9923EE6E4500E547E2 /* FBBezierIntersection.h */,
+				B6ED7B9A23EE6E4500E547E2 /* FBBezierGraph.h */,
+			);
+			path = PathBoolianOperation;
+			sourceTree = "<group>";
+		};
+		B6ED7BC523EE705C00E547E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED7BC623EE706C00E547E2 /* AxArtboardView.swift */,
+				B6F6C8F823EFA6A800C911F2 /* AxRenderer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6EA6F8B23D711220080CAF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ED7BC423EE6E4500E547E2 /* FBBezierGraph.h in Headers */,
+				B6ED7BC023EE6E4500E547E2 /* FBGeometry.h in Headers */,
+				B6ED7BB423EE6E4500E547E2 /* CGPath_Utilities.h in Headers */,
+				B6ED7BA923EE6E4500E547E2 /* FBBezierCurve.h in Headers */,
+				B6ED7BC123EE6E4500E547E2 /* Canvas.h in Headers */,
+				B6ED7BAA23EE6E4500E547E2 /* FBDebug.h in Headers */,
+				B6ED7BBA23EE6E4500E547E2 /* MWPointValue.h in Headers */,
+				B6ED7BAB23EE6E4500E547E2 /* MWGeometry.h in Headers */,
+				B6ED7BBE23EE6E4500E547E2 /* FBBezierContour.h in Headers */,
+				B6ED7BAF23EE6E4500E547E2 /* FBContourEdge.h in Headers */,
+				B6ED7BAC23EE6E4500E547E2 /* CGPath_Boolean.h in Headers */,
+				B6ED7BC323EE6E4500E547E2 /* FBBezierIntersection.h in Headers */,
+				B6ED7BB223EE6E4500E547E2 /* CanvasController.h in Headers */,
+				B6EA6FA123D711220080CAF2 /* Lapix.h in Headers */,
+				B6ED7BAD23EE6E4500E547E2 /* FBEdgeCrossing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B6EA6F8F23D711220080CAF2 /* Lapix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA6FA423D711220080CAF2 /* Build configuration list for PBXNativeTarget "Lapix" */;
+			buildPhases = (
+				B6EA6F8B23D711220080CAF2 /* Headers */,
+				B6EA6F8C23D711220080CAF2 /* Sources */,
+				B6EA6F8D23D711220080CAF2 /* Frameworks */,
+				B6EA6F8E23D711220080CAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lapix;
+			productName = AxRenderCore;
+			productReference = B6EA6F9023D711220080CAF2 /* Lapix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6EA6F9823D711220080CAF2 /* LapixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA6FA723D711220080CAF2 /* Build configuration list for PBXNativeTarget "LapixTests" */;
+			buildPhases = (
+				B6EA6F9523D711220080CAF2 /* Sources */,
+				B6EA6F9623D711220080CAF2 /* Frameworks */,
+				B6EA6F9723D711220080CAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EA6F9C23D711220080CAF2 /* PBXTargetDependency */,
+			);
+			name = LapixTests;
+			productName = AxRenderCoreTests;
+			productReference = B6EA6F9923D711220080CAF2 /* LapixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EA6F8723D711220080CAF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = yuki;
+				TargetAttributes = {
+					B6EA6F8F23D711220080CAF2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					B6EA6F9823D711220080CAF2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B6EA6F8A23D711220080CAF2 /* Build configuration list for PBXProject "Lapix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EA6F8623D711220080CAF2;
+			productRefGroup = B6EA6F9123D711220080CAF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EA6F8F23D711220080CAF2 /* Lapix */,
+				B6EA6F9823D711220080CAF2 /* LapixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EA6F8E23D711220080CAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA6F9723D711220080CAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EA6F8C23D711220080CAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ED7B9D23EE6E4500E547E2 /* Ex+AxRenderCore.swift in Sources */,
+				B6ED7BB623EE6E4500E547E2 /* FBBezierIntersection.m in Sources */,
+				B6ED7B9F23EE6E4500E547E2 /* AxInnerShadowRenderer.swift in Sources */,
+				B6ED7BB923EE6E4500E547E2 /* FBDebug.m in Sources */,
+				B6ED7BA723EE6E4500E547E2 /* AxPathGenerator.swift in Sources */,
+				B6F6C8F923EFA6A800C911F2 /* AxRenderer.swift in Sources */,
+				B6ED7BB323EE6E4500E547E2 /* FBBezierContour.m in Sources */,
+				B6ED7B9E23EE6E4500E547E2 /* AxBorderStyleRenderer.swift in Sources */,
+				B6ED7BBC23EE6E4500E547E2 /* CGPath_Boolean.m in Sources */,
+				B6ED7BAE23EE6E4500E547E2 /* MWPointValue.m in Sources */,
+				B6ED7BC223EE6E4500E547E2 /* FBContourEdge.m in Sources */,
+				B6ED7BA323EE6E4500E547E2 /* AxShapeNodeStyleRenderer.swift in Sources */,
+				B6ED7BB823EE6E4500E547E2 /* FBBezierCurve.m in Sources */,
+				B6ED7BA023EE6E4500E547E2 /* AxShadowStyleRenderer.swift in Sources */,
+				B6ED7BA423EE6E4500E547E2 /* AxLayerNodeRenderer.swift in Sources */,
+				B6ED7BBD23EE6E4500E547E2 /* CGPath_Utilities.m in Sources */,
+				B6ED7BA823EE6E4500E547E2 /* AxShapeNodeRenderer.swift in Sources */,
+				B6ED7BC723EE706C00E547E2 /* AxArtboardView.swift in Sources */,
+				B6ED7B9C23EE6E4500E547E2 /* Gl+Functions.swift in Sources */,
+				B6ED7BA123EE6E4500E547E2 /* AxFillStyleRenderer.swift in Sources */,
+				B6ED7BA623EE6E4500E547E2 /* AxTextRenderer.swift in Sources */,
+				B6ED7BBB23EE6E4500E547E2 /* FBEdgeCrossing.m in Sources */,
+				B6ED7B9B23EE6E4500E547E2 /* Ex+SKTNode.swift in Sources */,
+				B6ED7BB723EE6E4500E547E2 /* MWGeometry.c in Sources */,
+				B6ED7BA223EE6E4500E547E2 /* AxStyleGradientRenderer.swift in Sources */,
+				B6ED7BA523EE6E4500E547E2 /* AxBitmapRenderer.swift in Sources */,
+				B6ED7BB023EE6E4500E547E2 /* Canvas.m in Sources */,
+				B6ED7BB123EE6E4500E547E2 /* FBGeometry.m in Sources */,
+				B6ED7BBF23EE6E4500E547E2 /* CanvasController.m in Sources */,
+				B6ED7BB523EE6E4500E547E2 /* FBBezierGraph.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA6F9523D711220080CAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA6F9F23D711220080CAF2 /* AxRenderCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EA6F9C23D711220080CAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EA6F8F23D711220080CAF2 /* Lapix */;
+			targetProxy = B6EA6F9B23D711220080CAF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6EA6FA223D711220080CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6EA6FA323D711220080CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6EA6FA523D711220080CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Lapix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obuchiyuki.Lapix;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6EA6FA623D711220080CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Lapix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obuchiyuki.Lapix;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6EA6FA823D711220080CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				INFOPLIST_FILE = AxRenderCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obuchiyuki.AxRenderCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6EA6FA923D711220080CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				INFOPLIST_FILE = AxRenderCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obuchiyuki.AxRenderCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EA6F8A23D711220080CAF2 /* Build configuration list for PBXProject "Lapix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA6FA223D711220080CAF2 /* Debug */,
+				B6EA6FA323D711220080CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EA6FA423D711220080CAF2 /* Build configuration list for PBXNativeTarget "Lapix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA6FA523D711220080CAF2 /* Debug */,
+				B6EA6FA623D711220080CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EA6FA723D711220080CAF2 /* Build configuration list for PBXNativeTarget "LapixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA6FA823D711220080CAF2 /* Debug */,
+				B6EA6FA923D711220080CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EA6F8723D711220080CAF2 /* Project object */;
+}
